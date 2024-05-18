@@ -3,7 +3,7 @@
 document.getElementById("btnTinhLuong").onclick = function () {
     let daysWorked = parseFloat(document.getElementById('daysWorked').value);
     let salary = 100000 * daysWorked;
-    document.getElementById('salaryResult').innerText = `Tiền lương: ${salary.toLocaleString('vi-VN')} VND`;
+    document.getElementById('salaryResult').innerText = `Tiền lương: ${salary.toLocaleString('vi-VN')} VNĐ`;
 };
 
 // Bài 2
@@ -20,8 +20,8 @@ document.getElementById("btnTinhGiaTri").onclick = function () {
 // Bài 3
 document.getElementById("btnQuyDoi").onclick = function () {
     const usd = parseFloat(document.getElementById('usd').value);
-    const vnd = usd * 23500;
-    document.getElementById('currencyResult').innerText = `Số tiền VND: ${vnd.toLocaleString('vi-VN')} VND`;
+    const VNĐ = usd * 23500;
+    document.getElementById('currencyResult').innerText = `Số tiền VNĐ: ${VNĐ.toLocaleString('vi-VN')} VNĐ`;
 };
 
 // Bài 4
