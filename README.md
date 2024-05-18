@@ -1,5 +1,6 @@
 # BC69_BaiTapJS_LuuHoangLong
 Sơ đồ 3 khối
+
 Bài 1: Tính tiền lương nhân viên
 1. Input: Số ngày làm
 2. Process: Tính tiền lương = Lương 1 ngày * Số ngày làm
